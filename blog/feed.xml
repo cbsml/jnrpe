@@ -4,7 +4,7 @@
         <title>Massimiliano Ziccardi - JNRPE Blog</title>
         <link>https://www.jnrpe.it/jnrpe/blog</link>
         <description>The best place to stay up-to-date with the latest Massimiliano Ziccardi - JNRPE news and events.</description>
-        <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,42 +14,21 @@
         </image>
         <copyright>Copyright © 2020 Massimiliano Ziccardi</copyright>
         <item>
-            <title><![CDATA[New Version 1.0.0]]></title>
-            <link>https://www.jnrpe.it/jnrpe/blog/2017/10/24/new-version-1.0.0.html</link>
-            <guid>https://www.jnrpe.it/jnrpe/blog/2017/10/24/new-version-1.0.0.html</guid>
-            <pubDate>Tue, 24 Oct 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This blog post will test file name parsing issues when periods are present.</p> ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Adding RSS Support]]></title>
-            <link>https://www.jnrpe.it/jnrpe/blog/2017/09/26/adding-rss.html</link>
-            <guid>https://www.jnrpe.it/jnrpe/blog/2017/09/26/adding-rss.html</guid>
-            <pubDate>Tue, 26 Sep 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This is a test post.</p> <p>A whole bunch of other information.</p> ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-            <link>https://www.jnrpe.it/jnrpe/blog/2017/09/25/testing-rss.html</link>
-            <guid>https://www.jnrpe.it/jnrpe/blog/2017/09/25/testing-rss.html</guid>
-            <pubDate>Mon, 25 Sep 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</p>
-<p>This should be truncated.</p>
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[New Blog Post]]></title>
-            <link>https://www.jnrpe.it/jnrpe/blog/2017/04/10/blog-post-two.html</link>
-            <guid>https://www.jnrpe.it/jnrpe/blog/2017/04/10/blog-post-two.html</guid>
-            <pubDate>Mon, 10 Apr 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Blog Title]]></title>
-            <link>https://www.jnrpe.it/jnrpe/blog/2016/03/11/blog-post.html</link>
-            <guid>https://www.jnrpe.it/jnrpe/blog/2016/03/11/blog-post.html</guid>
-            <pubDate>Fri, 11 Mar 2016 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
+            <title><![CDATA[New Version 3.0.0]]></title>
+            <link>https://www.jnrpe.it/jnrpe/blog/2020/09/14/new-development.html</link>
+            <guid>https://www.jnrpe.it/jnrpe/blog/2020/09/14/new-development.html</guid>
+            <pubDate>Mon, 14 Sep 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Development of the new 3.0.0 version of JNRPE has started.
+Most important changes are:</p>
+<ul>
+<li><strong>support for Java 9 Modules:</strong> with this new architecture, each component of JNRPE will be a module, making it very
+easy to extend JNRPE functionalities by replacing existing modules or adding new ones.</li>
+<li><strong>support for different listeners:</strong> thanks to the modularity of the new source code, it will be very easy to add
+other listeners to the standard NRPE socket listener. For example, a REST listener could be added to provide a REST
+interface to NRPE. JNRPE v3 supports many listeners at once.</li>
+<li><strong>JNRPE plugins as modules:</strong> JNRPE plugins will be developed as Java 9 modules</li>
+<li><strong>support for NRPE protocol v3 and v4</strong></li>
+</ul>
 ]]></description>
         </item>
     </channel>
